@@ -12,3 +12,10 @@ venv/
 
 media/
 
+/users/migrations/
+/users/__init__.py
+/users/admin.py
+/users/apps.py
+/users/models.py
+/users/tests.py
+/users/views.py
