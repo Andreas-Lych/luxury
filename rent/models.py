@@ -7,6 +7,8 @@ COLOR_CHOICES = (
     ("GREEN", "Green"),
     ("BLUE", "Blue"),
     ("WHITE", "White"),
+    ("BLACK", "Black"),
+    ("SILVER", "Silver"),
 )
 
 GEARBOX_CHOICES = (

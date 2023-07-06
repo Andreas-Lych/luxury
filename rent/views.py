@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 def index(request):
     products = Product.objects.order_by("-created_at")
-    paginator = Paginator(products, 10)
+    paginator = Paginator(products, 30)
     page_number = request.GET.get("page")
     products = paginator.get_page(page_number)
     return render(request, "index.html", {"products": products})
