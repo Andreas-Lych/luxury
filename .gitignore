@@ -42,3 +42,4 @@ media/
 /schedule/models.py
 /schedule/tests.py
 /schedule/views.py
+/templates/feedback.html
